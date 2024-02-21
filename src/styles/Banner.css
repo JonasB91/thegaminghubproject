@@ -1,0 +1,22 @@
+.banner-container {
+    background-image: url('../assets/join_image.png');
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.banner-title {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10vw;
+}
+
+.banner-text {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20vw;
+}

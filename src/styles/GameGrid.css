@@ -1,0 +1,33 @@
+*{
+    color: white;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minimum and maximum width as needed */
+    gap: 20px; /* Adjust the gap between grid items as needed */
+    margin-top: 5vh;
+  }
+  
+  .game-card {
+    border: 1px solid #ccc; /* Add borders to the grid items */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    
+  }
+  
+  .game-card img {
+    max-width: 100%; /* Ensure images don't exceed the container width */
+    height: auto;
+  }
+  
+  /* Additional styling for game titles, ratings, etc. */
+  .game-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .game-card p {
+    margin-bottom: 0;
+  }
+  
